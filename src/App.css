@@ -1,0 +1,189 @@
+header {
+  margin-top: 50px;
+  background-color: #fff;
+}
+
+.logo img {
+  width: 70px;
+  height: 70px;
+}
+
+/* CSS */
+
+.card-image {
+  position: relative;
+}
+
+.heart-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 40px;
+  height: 20px;
+  cursor: pointer;
+  padding: 8px;
+  transition: 0.3s;
+  z-index: 1;
+}
+
+.heart-icon:active {
+  transform: scale(0.8);
+  transition: 0.3s;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: large;
+  column-gap: 10px;
+}
+
+.header-links ul {
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+}
+
+.header-links ul li {
+  list-style: none;
+}
+
+.header-links ul li a {
+  color: #000;
+  text-decoration: none;
+}
+
+.likes {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.likes img {
+  width: 30px;
+  height: 30px;
+}
+
+.card-content h2 {
+  margin-top: 5px;
+}
+
+.card {
+  width: 40%;
+  border: 1px solid #000;
+  padding: 20px;
+  height: 900px;
+}
+
+.card-wrapper {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.card-image img {
+  width: 100%;
+  height: 310px;
+  object-fit: cover;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+}
+
+.plot {
+  color: gray;
+  font-weight: 400;
+  font-size: large;
+}
+
+.year-and-rating {
+  display: flex;
+  align-items: center;
+}
+
+.yearAndRating {
+  display: flex;
+  align-items: center;
+  column-gap: 100px;
+  margin-bottom: 20px;
+}
+
+.year,
+.rated {
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.realisedRuntime {
+  display: flex;
+  align-items: center;
+  column-gap: 100px;
+}
+
+.released,
+.runtime {
+  font-weight: 500;
+  font-size: larger;
+  margin-bottom: 20px;
+}
+
+.genreRejissor {
+  display: flex;
+  align-items: center;
+  column-gap: 70px;
+}
+
+.genre,
+.director {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.actors {
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.languageCountry {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.language,
+.country {
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.awardsRating {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.awards,
+.imdbrating {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.awards {
+  width: 50%;
+}
