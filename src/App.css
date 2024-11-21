@@ -10,16 +10,16 @@ header {
 
 /* CSS */
 
-.card-image {
+/* .card-text {
   position: relative;
-}
+} */
 
 .heart-icon {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  width: 40px;
-  height: 20px;
+  /* position: absolute; */
+  /* top: 10px;
+  right: 10px; */
+  /* width: 40px;
+  height: 20px; */
   cursor: pointer;
   padding: 8px;
   transition: 0.3s;

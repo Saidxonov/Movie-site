@@ -49,16 +49,14 @@ function App() {
             {data.map((movie, index) => (
               <div key={index} className="card">
                 <div className="card-text">
+                  <img
+                    src={Like}
+                    alt="Heart icon"
+                    className="heart-icon"
+                    onClick={handleLike}
+                  />
                   <div className="card-image">
                     <img src={movie.Images} alt={movie.title} />
-                    <div className="likeIconCart">
-                      <img
-                        src={Like}
-                        alt="Heart icon"
-                        className="heart-icon"
-                        onClick={handleLike}
-                      />
-                    </div>
                   </div>
                   <div className="card-content">
                     <h2 className="title">{movie.Title}</h2>
